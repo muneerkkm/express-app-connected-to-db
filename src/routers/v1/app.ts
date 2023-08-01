@@ -4,7 +4,7 @@ const app = Router();
 
 
 
-// Use app instead of expr
+
 app.get('/', (req: Request, res: Response) => {
   res.json({
     status: 200,
